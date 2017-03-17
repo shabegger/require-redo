@@ -1,0 +1,34 @@
+{
+  "name": "require-redo",
+  "version": "0.0.1",
+  "description": "Fresh requires for unit testing",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "JASMINE_CONFIG_PATH=jasmine.json jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shabegger/require-redo.git"
+  },
+  "keywords": [
+    "require",
+    "redo",
+    "refresh",
+    "unit",
+    "test"
+  ],
+  "author": "Stephen Habegger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shabegger/require-redo/issues"
+  },
+  "homepage": "https://github.com/shabegger/require-redo#readme",
+  "devDependencies": {
+    "eslint": "^3.16.0",
+    "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0"
+  }
+}
